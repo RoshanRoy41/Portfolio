@@ -7,14 +7,14 @@ import backgroundImage from "../assets/background-image.jpg";
     <section class="grow grid grid-cols-12 gap-2">
       <!-- First section (unchanged) -->
       <section
-        class="col-span-6 flex flex-col items-center p-5 gap-10 rounded hover:bg-[#d9d9d9] hover:text-black group relative overflow-hidden"
+        class="col-span-6 flex flex-col items-center p-5 border gap-10 rounded hover:bg-[#d9d9d9] hover:text-black group relative overflow-hidden justify-center"
       >
-        <div class="pt-20 flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center">
           <p class="text-xl">The path of</p>
           <h1 class="text-3xl font-semibold">SOFTWARE ENGINEERING</h1>
         </div>
         <div
-          class="flex flex-col gap-1 px-7 py-5 bg-[#1B1B1B] rounded mt-10 tracking-wide group-hover:text-white"
+          class="flex flex-col gap-1 px-7 py-5 bg-[#1B1B1B] rounded mt-5 tracking-wide group-hover:text-white"
         >
           <h4 class="text-md">Bachelor of Technology</h4>
           <h2 class="text-lg font-bold tracking-wider">
@@ -28,7 +28,7 @@ import backgroundImage from "../assets/background-image.jpg";
 
       <!-- Second section with hover background -->
       <section
-        class="col-span-6 flex flex-col items-center p-5 gap-10 rounded group relative overflow-hidden"
+        class="col-span-6 flex flex-col items-center p-5 gap-10 rounded group relative overflow-hidden justify-center"
       >
         <!-- background layer -->
         <div
@@ -37,14 +37,12 @@ import backgroundImage from "../assets/background-image.jpg";
         ></div>
 
         <!-- content layer -->
-        <div
-          class="pt-20 flex flex-col items-center justify-center relative z-10"
-        >
+        <div class="flex flex-col items-center justify-center relative z-10">
           <p class="text-lg">The path of</p>
           <h1 class="text-3xl font-semibold">FITNESS TRAINING</h1>
         </div>
         <div
-          class="flex flex-col gap-1 px-7 py-5 bg-[#1B1B1B] rounded mt-10 tracking-wide group-hover:text-white relative z-10"
+          class="flex flex-col gap-1 px-7 py-5 bg-[#1B1B1B] rounded mt-5 tracking-wide group-hover:text-white relative z-10"
         >
           <h4 class="text-md">Professional Diploma</h4>
           <h2 class="text-lg font-bold tracking-wider">
